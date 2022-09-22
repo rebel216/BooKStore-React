@@ -3,10 +3,10 @@ import logger from 'redux-logger';
 import booksReducer from './books/books';
 import Categoriesreducer from './categories/categories';
 
-const reducer = combineReducers({
+const rootreducer = combineReducers({
   booksReducer, Categoriesreducer,
 });
 
-const store = configureStore(reducer, applyMiddleware(logger));
+const store = configureStore(rootreducer, applyMiddleware(logger));
 
 export default store;
