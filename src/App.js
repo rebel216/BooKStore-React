@@ -1,8 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Books from './components/Books';
-// eslint-disable-next-line import/extensions
-import Categories from './components/categories.js';
+import Categories from './components/categories';
 import Header from './components/Header';
 
 function App() {
