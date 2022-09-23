@@ -47,7 +47,7 @@ function Header() {
         >
           <Title>Bookstore CMS</Title>
           <ul>
-            <LinkTo to="/">BookS</LinkTo>
+            <LinkTo to="/">Books</LinkTo>
             <LinkTo to="/categories">Categories</LinkTo>
           </ul>
         </div>
