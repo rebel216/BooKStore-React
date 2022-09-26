@@ -9,6 +9,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width:100%;
 `;
 
 function Books() {
@@ -19,6 +20,19 @@ function Books() {
   }, []);
   return (
     <Container>
+      <Container>
+        <CardBook
+          title="The Hunger Games"
+          author="Suzanne Collins"
+          categorie="Action"
+        />
+        <CardBook
+          title="Dune"
+          author="Frank Herbert"
+          categorie="Science Fiction"
+        />
+
+      </Container>
       {books ? (
         Object.keys(books).map((book) => (
           <CardBook

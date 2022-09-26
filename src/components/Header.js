@@ -69,7 +69,7 @@ function UserIcon() {
       <img
         src="/assets/user-solid.svg"
         alt="user icon"
-        style={{ width: '1rem', height: '1rem', color: '#0290ff' }}
+        style={{ width: '1rem', height: '1rem', color: '#ADD8E6' }}
       />
     </div>
   );
